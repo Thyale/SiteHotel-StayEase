@@ -39,16 +39,16 @@ export default function Destaques(){
     return(
         <section className="flex flex-col gap-3">
             <div className="flex flex-row justify-center gap-5 p-7">
-                <p className="shadow-md py-4 px-7 cursor-pointer hover:bg-slate-200 rounded-md font-bold text-orange-500" onClick={() => resort(1)}>1</p>
-                <p className="shadow-md py-4 px-7 cursor-pointer hover:bg-slate-200 rounded-md font-bold  text-orange-500" onClick={() => resort(2)}>2</p>
-                <p className="shadow-md py-4 px-7 cursor-pointer hover:bg-slate-200 rounded-md font-bold  text-orange-500" onClick={() => resort(3)}>3</p>
+                <p className="shadow-md py-4 px-7 cursor-pointer hover:bg-slate-200  dark:hover:bg-gray-950 rounded-md font-bold text-orange-500" onClick={() => resort(1)}>1</p>
+                <p className="shadow-md py-4 px-7 cursor-pointer hover:bg-slate-200 dark:hover:bg-gray-950 rounded-md font-bold  text-orange-500" onClick={() => resort(2)}>2</p>
+                <p className="shadow-md py-4 px-7 cursor-pointer hover:bg-slate-200 dark:hover:bg-gray-950 rounded-md font-bold  text-orange-500" onClick={() => resort(3)}>3</p>
             </div>
             <div className="w-11/12 m-auto flex flex-row items-center justify-around cel:flex-col gap-5">
                <div>
                     <p className="text-gray-500 uppercase font-semibold text-xs mb-3">Resort em destaque</p>
-                    <h1 className="text-gray-600 font-bold text-3xl">{selectResort.name}</h1>
+                    <h1 className="text-gray-600 dark:text-gray-300 font-bold text-3xl">{selectResort.name}</h1>
                     <p className="text-gray-400 font-semibold text-xs my-4">Hotel qualidade 5 estrelas</p>
-                    <p className="max-w-lg text-gray-500 text-sm mb-5">{selectResort.descripton}</p>
+                    <p className="max-w-lg dark:text-gray-400 text-gray-500 text-sm mb-5">{selectResort.descripton}</p>
                     <button className="bg-orange-400 hover:bg-orange-500 text-gray-700 font-bold py-2 px-3 rounded-lg cursor-pointer mb-7">Solicitar reserva</button>
                </div>
                <div>
