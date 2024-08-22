@@ -6,7 +6,7 @@ function Center(){
                     <h1 className="text-5xl cel:text-4xl text-center">Onde você quer ir?</h1>
                     <p className="text-center">Escolha o estado e a cidade para achar os melhores resorts.</p>
                 </div>
-                <div className="flex flex-row gap-5 cel:flex-col items-center justify-around">
+                <div className="flex flex-row gap-5 w-11/12 m-auto cel:flex-col items-center justify-around">
                     <div className="bg-white text-gray-400 flex flex-row itens-center gap-5 p-3 rounded w-11/12 justify-center">
                        <input className="border-transparent outline-none w-full text-center" type="text" name="Estado" id="estado" placeholder="Escolha o estado" />
                        <span class="material-symbols-outlined">stat_minus_1</span>
