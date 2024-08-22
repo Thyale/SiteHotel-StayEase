@@ -7,6 +7,7 @@ import Top from './BodyOfProject/Top'
 import Center from './BodyOfProject/Center'
 import Destaques from './BodyOfProject/Destaques'
 import MoreResorts from './BodyOfProject/MoreResorts'
+import Footer from './BodyOfProject/Footer'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
@@ -14,5 +15,6 @@ createRoot(document.getElementById('root')).render(
     <Center/>
     <Destaques/>
     <MoreResorts/>
+    <Footer/>
   </StrictMode>,
 )
