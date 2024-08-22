@@ -1,6 +1,6 @@
 function Center(){
     return(
-        <section className="ImgDeFundo text-white dark:text-gray-900 text-xl py-40 flex items-center justify-center">
+        <section className="bg-[url('ImgCapaResort.jpg')] bg-no-repeat bg-cover bg-center text-white dark:text-gray-900 text-xl py-40 flex items-center justify-center">
             <div className="flex flex-col gap-7">
                 <div className="flex flex-col gap-2">
                     <h1 className="text-5xl cel:text-4xl text-center">Onde você quer ir?</h1>
