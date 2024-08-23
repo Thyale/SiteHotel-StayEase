@@ -15,7 +15,7 @@ O principal objetivo deste projeto é aplicar e consolidar os conhecimentos adqu
 
 ## 🌐 Acesso ao Projeto
 
-Para acessar, clique neste link: [StayEase](#) *(substitua com o link do projeto quando disponível)*
+Para acessar, clique neste link: [StayEase]( https://thyale.github.io/SiteHotel-StayEase/)
 
 ## 📝 Créditos
 
