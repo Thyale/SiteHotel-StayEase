@@ -21,15 +21,15 @@ export default function MoreResorts(){
                 <img className="w-full max-w-96" src={imagens[5]}/>
             </div>
             <div className="mt-12 flex flex-row gap-5 w-11/12 max-w-5xl m-auto cel:flex-col items-center justify-around p-3 dark:bg-gray-950 bg-gray-200 rounded-md">
-                <div className="bg-white dark:bg-gray-900 text-gray-400 flex flex-row itens-center gap-5 p-3 rounded w-11/12 justify-center">
+                <div className="bg-white dark:bg-gray-900 cel:w-full text-gray-400 flex flex-row itens-center gap-5 p-3 rounded w-11/12 justify-center">
                        <input className="border-transparent outline-none text-center dark:bg-gray-900" type="text" name="Estado" id="estado" placeholder="Escolha o estado" />
                        <span class="material-symbols-outlined">stat_minus_1</span>
                 </div>
-                <div className="bg-white dark:bg-gray-900 text-gray-400 flex flex-row itens-center gap-5 p-3 rounded w-11/12 justify-center">
+                <div className="bg-white dark:bg-gray-900 cel:w-full text-gray-400 flex flex-row itens-center gap-5 p-3 rounded w-11/12 justify-center">
                        <input className="border-transparent outline-none text-center dark:bg-gray-900" type="text" name="cidade" id="cidade" placeholder="Escolha a cidade" />
                        <span class="material-symbols-outlined">stat_minus_1</span>
                 </div>
-                <div className="bg-orange-400 hover:bg-orange-500 text-black flex flex-row itens-center gap-5 p-3 rounded w-11/12 justify-center">
+                <div className="bg-orange-400 hover:bg-orange-500 text-black flex flex-row itens-center cel:w-full gap-5 p-3 rounded w-11/12 justify-center">
                        <span class="material-symbols-outlined">search</span>
                        <button>Pesquisar resorts</button>
                 </div>
